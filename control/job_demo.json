@@ -1,0 +1,13 @@
+{
+  "name": "zygomaticus_smile_demo",
+  "subject": {"type": "primitive_muscle"},
+  "action": {"type": "pulse"},
+  "camera": "ORBIT",
+  "passes": ["activation", "transparent"],
+  "format": "vertical",
+  "deliver_formats": ["vertical", "square"],
+  "duration_s": 2.0,
+  "fps": 24,
+  "samples": 20,
+  "scale_pct": 60
+}

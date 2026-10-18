@@ -1,0 +1,10 @@
+{
+  "name": "human_torso_activation",
+  "subject": {"type": "mpfb_human", "macros": {"muscle": 0.85, "weight": 0.35, "gender": 0.5}},
+  "action": {"type": "pulse"},
+  "camera": "TORSO_CLOSEUP",
+  "passes": ["activation", "transparent"],
+  "format": "vertical",
+  "deliver_formats": ["vertical", "square"],
+  "duration_s": 2.0, "fps": 24, "samples": 24, "scale_pct": 60
+}

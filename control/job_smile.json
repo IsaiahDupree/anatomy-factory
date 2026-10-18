@@ -1,0 +1,10 @@
+{
+  "name": "smile_explainer",
+  "subject": {"type": "mpfb_human", "face": true, "macros": {"gender": 0.5, "age": 0.4, "muscle": 0.5, "weight": 0.45}},
+  "action": {"type": "expression", "envelope": "pulse",
+    "expression": {"mouthSmileLeft": 1.0, "mouthSmileRight": 1.0, "cheekSquintLeft": 0.6, "cheekSquintRight": 0.6, "eyeSquintLeft": 0.35, "eyeSquintRight": 0.35, "jawOpen": 0.12}},
+  "camera": "FACE_CLOSEUP",
+  "passes": ["transparent"],
+  "format": "vertical", "deliver_formats": ["vertical", "square"],
+  "duration_s": 2.5, "fps": 24, "samples": 32, "scale_pct": 80
+}

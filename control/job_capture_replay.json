@@ -1,0 +1,9 @@
+{
+  "name": "capture_replay_still",
+  "subject": {"type": "mpfb_human", "face": true, "macros": {"gender": 0.5, "age": 0.4, "muscle": 0.5, "weight": 0.45}},
+  "action": {"type": "capture", "path": "E:\\AnatomyFactory\\out\\capture_portrait.json"},
+  "camera": "FACE_CLOSEUP",
+  "passes": ["beauty"],
+  "format": "vertical", "deliver_formats": ["vertical"],
+  "duration_s": 0.1, "fps": 24, "samples": 24, "scale_pct": 70
+}
